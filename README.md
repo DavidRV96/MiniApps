@@ -41,6 +41,7 @@ Based on the current code, this project includes mini apps for:
 - Cat facts
 - Dog images
 - Coffee images
+- Song Lyrics
 - Weather
 - Jokes
 - Calendar / holiday information
