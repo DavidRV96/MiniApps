@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My API Dashboard</h1>
+      <p>Eight mini apps powered by public APIs</p>
+    </header>
+
+    <main class="dashboard">
+      <section class="card" id="cat-card">
+        <h2>Cat Facts</h2>
+        <button id="cat-btn">New Cat Fact</button>
+        <div class="content" id="cat-content">Loading cat fact...</div>
+      </section>
+
+      <section class="card" id="dog-card">
+        <h2>Dog Picture</h2>
+        <button id="dog-btn">New Dog Picture</button>
+        <div class="content" id="dog-content">Loading dog picture...</div>
+      </section>
+
+      <section class="card" id="coffee-card">
+        <h2>Coffee Image</h2>
+        <button id="coffee-btn">New Coffee Image</button>
+        <div class="content" id="coffee-content">Loading coffee image...</div>
+      </section>
+
+      <section class="card" id="calendar-card">
+        <h2>2026 U.S. Federal Holidays</h2>
+        <button id="calendar-btn">Load Holidays</button>
+        <div class="content" id="calendar-content">
+          Loading holiday calendar...
+        </div>
+      </section>
+
+      <section class="card" id="lyrics-card">
+        <h2>Lyrics Search</h2>
+        <div class="controls">
+          <input type="text" id="artist-input" placeholder="Artist name" />
+          <input type="text" id="song-input" placeholder="Song title" />
+          <button id="lyrics-btn">Get Lyrics</button>
+        </div>
+        <div class="content" id="lyrics-content">
+          Enter a song to search lyrics.
+        </div>
+      </section>
+
+      <section class="card" id="weather-card">
+        <h2>Fairfax Weather</h2>
+        <button id="weather-btn">Get Weather</button>
+        <div class="content" id="weather-content">Loading weather...</div>
+      </section>
+
+      <section class="card" id="anime-card">
+        <h2>Anime Quote</h2>
+        <button id="anime-btn">New Quote</button>
+        <div class="content" id="anime-content">Loading anime quote...</div>
+      </section>
+
+      <section class="card" id="joke-card">
+        <h2>Random Joke</h2>
+        <button id="joke-btn">New Joke</button>
+        <div class="content" id="joke-content">Loading joke...</div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
